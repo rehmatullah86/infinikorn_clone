@@ -1,0 +1,96 @@
+/*----------------------------Tag Selector---------------*/
+
+/*----------------------------Class Selector---------------*/
+.navbar-brand {
+  margin-left: 50px;
+}
+.navbar-brand img {
+  width: 70%;
+}
+.section {
+  margin-right: 80px;
+  gap: 20px;
+}
+
+.bg-img {
+  background-image: url("../banner-585abb885664adb1eb381c41970645df.jpg");
+  width: 100%;
+  min-height: 570px;
+
+  background-color: #0005;
+
+  background-blend-mode: darken;
+}
+.company-name img {
+  margin-top: 30px;
+  width: 22%;
+}
+.header-text {
+  font-size: 0.875rem;
+}
+
+/* -------------------Services----------------- */
+.services {
+  color: #1fde82;
+}
+
+.services-text {
+  color: #717784;
+}
+
+/* -----------------------------OverLay---------------------- */
+.portfolio {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: -6px;
+  bottom: 0;
+  left: 6px;
+  right: 0;
+  height: 98%;
+  width: 93%;
+  opacity: 0;
+  transition: 0.5s ease;
+  margin: 8px;
+  border: 1px solid black;
+}
+
+.portfolio:hover .overlay {
+  opacity: 12;
+  background-color: #0005;
+  background-blend-mode: darken;
+}
+
+.overlay-text {
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 0.8rem;
+}
+.text {
+  width: 350px;
+  height: 200px;
+  margin-top: -30px;
+  color: #1fde82;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* -------------------Work------------------- */
+.work-image {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.footer {
+  font-size: 0.8rem;
+}
+/*----------------------------ID Selector---------------*/
+/*----------------------------Media Queries---------------*/
